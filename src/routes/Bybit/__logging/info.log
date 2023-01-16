@@ -1,0 +1,159 @@
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"06801cfffe0515d0-000071c5-006d914f-12d36782efedf9a2-5547b5d9","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673884010841"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Timestamp","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"06dd1efffe9e3272-000011c2-006d90bf-dcfc9b516894eec9-47321ece","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673885044856"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673885049872"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"06dd1efffe9e3272-000011c2-006d98ed-6fe5f039171d6c4d-0a51ce20","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887699468"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887704480"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887709489"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887714499"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887719500"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887724507"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887729516"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887734521"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887739521"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887744531"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887749544"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887754547"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887759553"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887764571"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887769567"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887774576"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887779584"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887784592"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887789597"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887794606"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887799616"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887804625"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887809631"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887814647"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887819660"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887824671"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887829679"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887834696"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887839701"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887844709"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887849718"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887854737"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887859746"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887864761"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887869765"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887874781"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887879785"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887884789"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887889815"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887894814"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887899815"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887904822"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887910040"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887914840"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887919844"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887924855"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887929858"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887934866"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887939880"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887944884"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887949895"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887954896"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887959897"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887964907"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887970038"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887974924"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887979940"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887984943"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887989949"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"data":[{"BT":false,"S":"Buy","T":1673887994930,"i":"54cf4bbd-c952-588b-a991-5aad18552a18","p":"30","s":"BTC-18JAN23-23000-C","v":"0.5"}],"id":"publicTrade.BTC-2487547428-1673887994941","topic":"publicTrade.BTC","ts":1673887994942,"type":"snapshot"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673887994948"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af1a0fffe1104a8-00002c4a-006d9bec-0275920f9827bad6-7d6a749f","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888136329"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888141324"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888146368"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888151331"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888156335"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1673888161343"],"op":"pong"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"data":[{"BT":false,"S":"Sell","T":1673888165038,"i":"170950c2-c17c-5025-a7cf-c58f5be05b87","p":"95","s":"BTC-18JAN23-22000-C","v":"0.1"}],"id":"publicTrade.BTC-2558081012-1673888165048","topic":"publicTrade.BTC","ts":1673888165048,"type":"snapshot"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af1a0fffe1104a8-00002c4a-006d9c26-9f9d9f0b80252f90-599caf16","success":true,"type":"COMMAND_RESP"},"service":"user-service"}

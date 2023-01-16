@@ -1,0 +1,71 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "mysql"
+  url = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Exchange {
+    id Int @id @default(autoincrement())
+    name String
+    lastUpdate DateTime
+    // contracts Contract[]
+    data Data[]
+}
+
+model Coin {
+    id Int @id @default(autoincrement())
+    name String
+    // contracts Contract[]
+    data Data[]
+}
+
+model TimeInterval {
+    id    Int    @id  @default(autoincrement())
+    name  String
+    data Data[]
+}
+
+model Data {
+    id                     Int       @id  @default(autoincrement())
+    last24hVolumePremium   Float
+    last24hVolumeNotional  Float
+    last24hNumberOfTrades  Float
+    last24hOpenInterest    Float
+    timestamp              DateTime
+    coin                   Coin    @relation(fields: [coinId], references: [id])
+    coinId                Int
+    exchange               Exchange  @relation(fields: [exchangeId], references: [id])
+    exchangeId            Int
+    timeInterval           TimeInterval  @relation(fields: [timeIntervalId], references: [id])
+    timeIntervalId        Int
+}
+
+model ByBitData {
+  id  Int  @id  @default(autoincrement())
+  name String
+  timeStamp DateTime
+  price Float
+  volume  Float
+  instrument String
+}
+
+// model Contract {
+//     id Int @id @default(autoincrement())
+//     exchangeId Int
+//     coinId Int
+//     timestamp DateTime @default(now())
+//     premium_volume Float
+//     notional_volume Float
+//     traded_count Int
+//     open_interest Float
+//     exchange Exchange @relation(fields: [exchangeId], references: [id])
+//     coin Coin @relation(fields: [coinId], references: [id])
+
+// }
+
