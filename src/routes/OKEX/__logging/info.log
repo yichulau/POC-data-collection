@@ -3113,3 +3113,150 @@
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.62500875","fwdPx":"21208.86587547117","indexPx":"21134.9","instFamily":"BTC-USD","instId":"BTC-USD-230224-24000-C","markPx":"0.03616046145901969","optType":"C","px":"0.035","side":"sell","sz":"10","tradeId":"117","ts":"1673970751066"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.62500875","fwdPx":"21208.86587547117","indexPx":"21134.9","instFamily":"BTC-USD","instId":"BTC-USD-230224-24000-C","markPx":"0.03616046145901969","optType":"C","px":"0.035","side":"sell","sz":"10","tradeId":"117","ts":"1673970751066"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.59571193359375","fwdPx":"21136.096038170323","indexPx":"21124.5","instFamily":"BTC-USD","instId":"BTC-USD-230119-21000-P","markPx":"0.013550143844429763","optType":"P","px":"0.013","side":"sell","sz":"2","tradeId":"13","ts":"1673970862066"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.55664951171875","fwdPx":"21136.096038170323","indexPx":"21124.5","instFamily":"BTC-USD","instId":"BTC-USD-230119-21000-P","markPx":"0.013550143844429763","optType":"P","px":"0.012","side":"sell","sz":"5","tradeId":"14","ts":"1673970862066"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.55664951171875","fwdPx":"21136.096038170323","indexPx":"21124.5","instFamily":"BTC-USD","instId":"BTC-USD-230119-21000-P","markPx":"0.013550143844429763","optType":"P","px":"0.012","side":"sell","sz":"5","tradeId":"14","ts":"1673970862066"}]},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.55664951171875","fwdPx":"21136.096038170323","indexPx":"21124.5","instFamily":"BTC-USD","instId":"BTC-USD-230119-21000-P","markPx":"0.013550143844429763","optType":"P","px":"0.012","side":"sell","sz":"5","tradeId":"14","ts":"1673970862066"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.55664951171875","fwdPx":"21136.096038170323","indexPx":"21124.5","instFamily":"BTC-USD","instId":"BTC-USD-230119-21000-P","markPx":"0.013550143844429763","optType":"P","px":"0.012","side":"sell","sz":"5","tradeId":"14","ts":"1673970862066"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5664151171874999","fwdPx":"21142.740517748698","indexPx":"21143.4","instFamily":"BTC-USD","instId":"BTC-USD-230118-20800-P","markPx":"0.0042516234469712755","optType":"P","px":"0.0035","side":"sell","sz":"1","tradeId":"35","ts":"1673970959050"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5273526953125","fwdPx":"21142.740517748698","indexPx":"21143.4","instFamily":"BTC-USD","instId":"BTC-USD-230118-20800-P","markPx":"0.0042516234469712755","optType":"P","px":"0.003","side":"sell","sz":"11","tradeId":"36","ts":"1673970959050"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.6152431445312501","fwdPx":"21184.174013380507","indexPx":"21177.6","instFamily":"BTC-USD","instId":"BTC-USD-230119-20400-P","markPx":"0.004260605425021019","optType":"P","px":"0.004","side":"sell","sz":"3","tradeId":"5","ts":"1673971132056"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5468839062499999","fwdPx":"21184.174013380507","indexPx":"21177.6","instFamily":"BTC-USD","instId":"BTC-USD-230119-20400-P","markPx":"0.004260605425021019","optType":"P","px":"0.003","side":"sell","sz":"102","tradeId":"6","ts":"1673971132056"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}

@@ -29,7 +29,7 @@ const logger = winston.createLogger({
 function realTimePolling(ws: any) {
     ws.on("open", () => {
 
-        console.log("connected");
+        console.log("connected OKEX");
 
         logger.log({level: 'info', message: "Connected!"})
 
@@ -49,16 +49,6 @@ function realTimePolling(ws: any) {
 
         if(data){
 
-            // await prisma.oKEXData.create({
-            //     data: {
-            //         name: '123', 
-            //         timeStamp: new Date(),
-            //         price : Number('123'),
-            //         volume:  Number('123'),
-            //         instrument: '123',
-            //         instFamily: '123'
-            //     }
-            // });
             data.map(async (obj: any)=>{
                 const { instId, ts, px, fillVol, tradeId, instFamily} = obj
                 

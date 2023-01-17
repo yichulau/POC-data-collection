@@ -24,7 +24,7 @@ const logger = winston.createLogger({
 
 function realTimePolling(ws: any) {
     ws.on("open", () => {
-        console.log("connected");
+        console.log("connected BitCom");
         logger.log({level: 'info', message: "Connected!"})
 
         setInterval(() => {

@@ -114,7 +114,7 @@ function getLast24HVolume(data :any[], currency:string) : [number,number, number
   let volumeUSD = 0;
   let volumeOpenInterest = 0;
 
-  data.forEach(d => {
+  data.forEach(d => { 
       if (d["symbol"].includes(currency)) {
           volumeContracts += parseFloat(d["volume24h"]);
           volumeUSD += parseFloat(d["turnover24h"]);
@@ -127,3 +127,7 @@ function getLast24HVolume(data :any[], currency:string) : [number,number, number
 
 
 export { router as byBitNotional };
+
+
+// notional = turnover24h 
+// notional = vol24h*spotVal

@@ -53,12 +53,12 @@ app.use(deribitOpenInterest)
 
 
 // ByBit websocket
-// const wsByBit = new WebSocket("wss://stream.bytick.com/option/usdc/public/v3");
-// wsPolling.realTimePolling(wsByBit);
+const wsByBit = new WebSocket("wss://stream.bytick.com/option/usdc/public/v3");
+wsPolling.realTimePolling(wsByBit);
 
 // Bit websocket
-// const wsBit = new WebSocket("wss://ws.bit.com");
-// wsBitPolling.realTimePolling(wsBit);
+const wsBit = new WebSocket("wss://ws.bit.com");
+wsBitPolling.realTimePolling(wsBit);
 
 // OKEX websocket
 const wsOKEX = new WebSocket("wss://ws.okx.com:8443/ws/v5/public");
