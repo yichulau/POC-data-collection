@@ -2,12 +2,12 @@ import WebSocket from 'ws';
 import { createServer } from "http";
 import { Server } from 'socket.io';
 import winston from 'winston';
-
+import { PrismaClient } from '@prisma/client'
 
 export const wsBitPolling = {
     realTimePolling
 }
-
+const prisma = new PrismaClient();
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.json(),
@@ -29,19 +29,35 @@ function realTimePolling(ws: any) {
 
         setInterval(() => {
             logger.log({level: 'info', message: "Checking Heartbeat"})
-            ws.send('{"type":"ping","params":{"id":123}');
+            ws.send('{"type":"ping","params":{"id":123}}');
         }, 5000);
 
 
-        ws.send('"type":"subscribe","channels":[ "market_trade"],"currencies":["BTC"],"categories":["option"],"interval": "100ms"');
+        ws.send('{"type":"subscribe","channels":[ "market_trade"],"currencies":["BTC"],"categories":["option"],"interval": "100ms"}');
     });
 
-    ws.on("message", (data: { toString: () => string; }) => {
-        console.log(JSON.parse(data.toString()));
+    ws.on("message", (response: { toString: () => string; }) => {
+        console.log(JSON.parse(response.toString()));
+        const dataSet = JSON.parse(response.toString());
+        const { data, timestamp } = dataSet;
+
+        if(data && data.code !== 0){
+            data.map(async (obj: any)=>{
+                await prisma.bitCom.create({
+                    data: {
+                        name: obj.instrument_id, 
+                        timeStamp: new Date(timestamp),
+                        price : Number(obj.price),
+                        volume:  Number(obj.sigma),
+                        instrument: obj.instrument_id,
+                    }
+                });
+            })
+        }
 
           logger.log({
             level: 'info',
-            message: JSON.parse(data.toString()),
+            message: JSON.parse(response.toString()),
             additional: 'properties',
             are: 'passed along'
           });

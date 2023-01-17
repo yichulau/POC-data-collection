@@ -55,6 +55,26 @@ model ByBitData {
   instrument String
 }
 
+model OKEXData {
+  id  Int  @id  @default(autoincrement())
+  name String
+  timeStamp DateTime
+  price Float
+  volume  Float
+  instrument String
+  instFamily String
+}
+
+model bitCom {
+  id  Int  @id  @default(autoincrement())
+  name String
+  timeStamp DateTime
+  price Float
+  volume  Float
+  instrument String
+}
+
+
 // model Contract {
 //     id Int @id @default(autoincrement())
 //     exchangeId Int

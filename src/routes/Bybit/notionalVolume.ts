@@ -84,7 +84,7 @@ async function getTickers(instruments: any[]) {
               const retryDelay = 2000; // 2 seconds
               while (retries < retryLimit) {
                   try {
-                      const { data : response } = await axios.get(fullendpoint + `?category=${category}&baseCoin=${i}`);
+                      const { data : response } = await axios.get(fullendpoint + `?category=${category}&symbol=${i}`);
                       const { data } = response
                       tickers.push(data);
                       cache[i] = data;

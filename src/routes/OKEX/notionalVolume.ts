@@ -54,7 +54,7 @@ async function getAllInstruments(currencies: String) {
 
 
 async function getTickers(instFamily: String) {
-    // https://www.okx.com/api/v5/market/tickers?instType=OPTION&instFamily=BTC-USD
+        // https://www.okx.com/api/v5/market/tickers?instType=OPTION&instFamily=BTC-USD
     const url = 'https://www.okx.com';
     const endpoint = `/api/v5/market/tickers`;
     const method = 'GET'

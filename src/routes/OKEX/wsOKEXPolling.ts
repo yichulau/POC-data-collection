@@ -2,12 +2,16 @@ import WebSocket from 'ws';
 import { createServer } from "http";
 import { Server } from 'socket.io';
 import winston from 'winston';
-
+import crypto from 'crypto';
+import sha256 from 'crypto-js/sha256';
+import hmacSHA512 from 'crypto-js/hmac-sha512';
+import Base64 from 'crypto-js/enc-base64';
+import { PrismaClient } from '@prisma/client'
 
 export const wsOKEXPolling = {
     realTimePolling
 }
-
+const prisma = new PrismaClient();
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.json(),
@@ -24,26 +28,66 @@ const logger = winston.createLogger({
 
 function realTimePolling(ws: any) {
     ws.on("open", () => {
+
         console.log("connected");
+
         logger.log({level: 'info', message: "Connected!"})
 
         setInterval(() => {
             logger.log({level: 'info', message: "Checking Heartbeat"})
-            ws.send('{"op": "subscribe","args": [{"channel": "tickers","instId": "LTC-USD-200327"},{"channel": "candle1m","instId": "LTC-USD-200327"}]}');
+            ws.send(`"op": "login"}]`);
         }, 5000);
 
+        ws.send('{"op": "subscribe","args": [{"channel": "option-trades","instType": "OPTION","instFamily": "BTC-USD"}]}');
 
-        ws.send('"type":"subscribe","channels":[ "market_trade"],"currencies":["BTC"],"categories":["option"],"interval": "100ms"');
     });
 
-    ws.on("message", (data: { toString: () => string; }) => {
-        console.log(JSON.parse(data.toString()));
+    ws.on("message", async (response: { toString: () => string; }) => {
 
-          logger.log({
+        const dataSet = JSON.parse(response.toString());
+        const { data } = dataSet;
+
+        if(data){
+
+            // await prisma.oKEXData.create({
+            //     data: {
+            //         name: '123', 
+            //         timeStamp: new Date(),
+            //         price : Number('123'),
+            //         volume:  Number('123'),
+            //         instrument: '123',
+            //         instFamily: '123'
+            //     }
+            // });
+            data.map(async (obj: any)=>{
+                const { instId, ts, px, fillVol, tradeId, instFamily} = obj
+                
+                
+                await prisma.oKEXData.create({
+                    data: {
+                        name: instId, 
+                        timeStamp: new Date(),
+                        price : Number(px),
+                        volume:  Number(fillVol),
+                        instrument: tradeId.toString(),
+                        instFamily: instFamily
+                    }
+                });
+            })
+        }
+
+
+        logger.log({
             level: 'info',
-            message: JSON.parse(data.toString()),
+            message: JSON.parse(response.toString()),
             additional: 'properties',
             are: 'passed along'
-          });
+        });
     });
+}
+
+function getSignature(timestamp : any , method : any , path : any , secret :any) {
+    const hashDigest = (timestamp/1000) + method + path;
+    const hmacDigest = Base64.stringify(hmacSHA512(hashDigest,secret));
+    return hmacDigest;
 }

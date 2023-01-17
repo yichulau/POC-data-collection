@@ -17,6 +17,7 @@ import { Server } from 'socket.io';
 import WebSocket from 'ws';
 import { wsPolling } from './routes/Bybit/wsPolling';
 import { wsBitPolling } from './routes/Bit/wsBitPolling';
+import { wsOKEXPolling } from './routes/OKEX/wsOKEXPolling';
 
 const app: Application = express();
 const httpServer = createServer(app);
@@ -52,16 +53,17 @@ app.use(deribitOpenInterest)
 
 
 // ByBit websocket
-const wsByBit = new WebSocket("wss://stream.bytick.com/option/usdc/public/v3");
-wsPolling.realTimePolling(wsByBit);
+// const wsByBit = new WebSocket("wss://stream.bytick.com/option/usdc/public/v3");
+// wsPolling.realTimePolling(wsByBit);
 
 // Bit websocket
 // const wsBit = new WebSocket("wss://ws.bit.com");
 // wsBitPolling.realTimePolling(wsBit);
 
 // OKEX websocket
-// const wsOKEX = new WebSocket("wss://ws.okx.com:8443/ws/v5/public");
-// wsBitPolling.realTimePolling(wsOKEX);
+const wsOKEX = new WebSocket("wss://ws.okx.com:8443/ws/v5/public");
+wsOKEXPolling.realTimePolling(wsOKEX);
+
 
 
 export { app };
