@@ -74,6 +74,29 @@ model bitCom {
   instrument String
 }
 
+model binanceData {
+  id  Int  @id  @default(autoincrement())
+  name String
+  timeStamp DateTime
+  price Float
+  volume  Float
+  instId String
+  instFamily String
+}
+
+model DeribitData {
+  id  Int  @id  @default(autoincrement())
+  name String
+  timeStamp DateTime
+  price Float
+  volume  Float
+  instrument String
+  instFamily String
+  iv Float
+  trade_id String
+  markPrice Float
+}
+
 
 // model Contract {
 //     id Int @id @default(autoincrement())

@@ -34,6 +34,7 @@ function realTimePolling(ws: any) {
 
 
         ws.send('{"type":"subscribe","channels":[ "market_trade"],"currencies":["BTC"],"categories":["option"],"interval": "100ms"}');
+        ws.send('{"type":"subscribe","channels":[ "market_trade"],"currencies":["ETH"],"categories":["option"],"interval": "100ms"}');
     });
 
     ws.on("message", (response: { toString: () => string; }) => {

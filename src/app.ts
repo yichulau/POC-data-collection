@@ -18,6 +18,8 @@ import WebSocket from 'ws';
 import { wsPolling } from './routes/Bybit/wsPolling';
 import { wsBitPolling } from './routes/Bit/wsBitPolling';
 import { wsOKEXPolling } from './routes/OKEX/wsOKEXPolling';
+import { wsDeribitPolling } from './routes/Deribit/wsDeribitPolling';
+import { wsBinancePolling } from './routes/Binance/wsBinancePolling';
 
 const app: Application = express();
 const httpServer = createServer(app);
@@ -64,6 +66,14 @@ wsBitPolling.realTimePolling(wsBit);
 const wsOKEX = new WebSocket("wss://ws.okx.com:8443/ws/v5/public");
 wsOKEXPolling.realTimePolling(wsOKEX);
 
+// Deribit websocket
+const wsDeribit = new WebSocket("wss://www.deribit.com/ws/api/v2");
+wsDeribitPolling.realTimePolling(wsDeribit);
 
+// Binance websocket
+// const wsBinance = new WebSocket("wss://ws-api.binance.com/ws-api/v3"); obsolete
+const wsBinance = new WebSocket("wss://nbstream.binance.com/eoptions/stream");
+wsBinancePolling.realTimePollingETH(wsBinance)
+wsBinancePolling.realTimePollingBTC(wsBinance)
 
 export { app };

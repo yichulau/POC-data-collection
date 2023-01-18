@@ -39,20 +39,16 @@ function realTimePolling(ws: any) {
         }, 5000);
 
         ws.send('{"op": "subscribe","args": [{"channel": "option-trades","instType": "OPTION","instFamily": "BTC-USD"}]}');
-
+        ws.send('{"op": "subscribe","args": [{"channel": "option-trades","instType": "OPTION","instFamily": "ETH-USD"}]}');
     });
 
     ws.on("message", async (response: { toString: () => string; }) => {
 
         const dataSet = JSON.parse(response.toString());
         const { data } = dataSet;
-
         if(data){
-
             data.map(async (obj: any)=>{
                 const { instId, ts, px, fillVol, tradeId, instFamily} = obj
-                
-                
                 await prisma.oKEXData.create({
                     data: {
                         name: instId, 

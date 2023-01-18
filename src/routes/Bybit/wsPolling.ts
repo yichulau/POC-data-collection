@@ -33,6 +33,7 @@ function realTimePolling(ws: any) {
         }, 5000);
 
         ws.send('{"op": "subscribe", "args": ["publicTrade.BTC"]}');
+        ws.send('{"op": "subscribe", "args": ["publicTrade.ETH"]}');
     });
 
     ws.on("message", async (response: { toString: () => string; }) => {

@@ -3260,3 +3260,16 @@
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.6237880493164063","fwdPx":"21521.476505430914","indexPx":"21252.1","instFamily":"BTC-USD","instId":"BTC-USD-230630-14000-P","markPx":"0.02505114374127071","optType":"P","px":"0.026","side":"buy","sz":"2","tradeId":"112","ts":"1674031303909"}]},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60018","event":"error","msg":"channel:option-trades,instType:OPTION doesn't exist"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
