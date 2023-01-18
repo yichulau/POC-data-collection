@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:prod": "NODE_ENV=production node dist/src/index.js",
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache",
+    "build": "tsc",
     "test:ci": "jest"
   },
   "keywords": [],
@@ -31,6 +33,7 @@
     "mongoose-update-if-current": "^1.4.0",
     "mysql2": "^3.0.1",
     "node-nats-streaming": "^0.3.2",
+    "pm2": "^5.2.2",
     "prisma": "^4.8.1",
     "socket.io": "^4.5.4",
     "ts-node-dev": "^2.0.0",

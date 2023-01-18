@@ -1518,3 +1518,26 @@
 {"additional":"properties","are":"passed along","level":"info","message":{"args":["1673971169590"],"op":"pong"},"service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"additional":"properties","are":"passed along","level":"info","message":{"args":["1673971174605"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af1a0fffe1104a8-00002c4a-00702b61-1ad59846301b8ece-5749ff91","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af1a0fffe1104a8-00002c4a-00702b61-1ad59846301b8ece-5749ff91","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"data":[{"BT":false,"S":"Buy","T":1674061766328,"i":"91b96f74-9045-5ab6-84e0-049f71152d1b","p":"17.5","s":"ETH-3FEB23-1900-C","v":"27.8"},{"BT":false,"S":"Buy","T":1674061766328,"i":"aeda1a8b-2b03-5bf1-8a28-bef0f46e77e7","p":"17.2","s":"ETH-3FEB23-1900-C","v":"2.2"}],"id":"publicTrade.ETH-2523098148-1674061766337","topic":"publicTrade.ETH","ts":1674061766337,"type":"snapshot"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"06dd1efffe9e3272-000011c2-00702a35-1ecfa3c17cfc082d-a5d82ef7","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"06dd1efffe9e3272-000011c2-00702a35-1ecfa3c17cfc082d-a5d82ef7","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061868531"],"op":"pong"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"data":[{"BT":false,"S":"Buy","T":1674061868900,"i":"513053de-aa51-5aff-a997-4bf1e1e6baa0","p":"1","s":"ETH-30JUN23-200-P","v":"53.5"}],"id":"publicTrade.ETH-2363649026-1674061868907","topic":"publicTrade.ETH","ts":1674061868907,"type":"snapshot"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061873535"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061878535"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061883541"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af5e0fffed7f6f0-0000576e-00702aa4-0fd99a0e741de05f-d5399d3a","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"conn_id":"0af5e0fffed7f6f0-0000576e-00702aa4-0fd99a0e741de05f-d5399d3a","success":true,"type":"COMMAND_RESP"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061891091"],"op":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"args":["1674061896101"],"op":"pong"},"service":"user-service"}

@@ -11,40 +11,96 @@ datasource db {
 }
 
 model Exchange {
-    id Int @id @default(autoincrement())
-    name String
-    lastUpdate DateTime
-    // contracts Contract[]
-    data Data[]
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  contracts ContractsTraded[]
+  openInterest OpenInterest[]
+  volumeNotional VolumeNotional[]
+  volumePremium VolumePremium[]
+}
+model CoinCurrency {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  contractsTraded ContractsTraded[]
+  openInterest OpenInterest[]
+  volumeNotional VolumeNotional[]
+  volumePremium VolumePremium[]
 }
 
-model Coin {
-    id Int @id @default(autoincrement())
-    name String
-    // contracts Contract[]
-    data Data[]
-}
 
 model TimeInterval {
     id    Int    @id  @default(autoincrement())
     name  String
-    data Data[]
+    contractsTraded ContractsTraded[]
+    openInterest OpenInterest[]
+    volumeNotional VolumeNotional[]
+    volumePremium VolumePremium[]
+  }
+
+model ContractsTraded {
+  id Int @id @default(autoincrement())
+  coinCurrency CoinCurrency  @relation(fields: [coinCurrencyID], references: [id])
+  exchange Exchange @relation(fields: [exchangeID], references: [id])
+  coinCurrencyID Int
+  exchangeID Int
+  timestamp  Int
+  timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
+  timeIntervalId Int
+  value      Decimal
+
+  @@index([coinCurrencyID])
+  @@index([exchangeID])
+  @@index([timeIntervalId])
 }
 
-model Data {
-    id                     Int       @id  @default(autoincrement())
-    last24hVolumePremium   Float
-    last24hVolumeNotional  Float
-    last24hNumberOfTrades  Float
-    last24hOpenInterest    Float
-    timestamp              DateTime
-    coin                   Coin    @relation(fields: [coinId], references: [id])
-    coinId                Int
-    exchange               Exchange  @relation(fields: [exchangeId], references: [id])
-    exchangeId            Int
-    timeInterval           TimeInterval  @relation(fields: [timeIntervalId], references: [id])
-    timeIntervalId        Int
+model OpenInterest {
+  id Int @id @default(autoincrement())
+  coinCurrency CoinCurrency  @relation(fields: [coinCurrencyID], references: [id])
+  exchange Exchange @relation(fields: [exchangeID], references: [id])
+  coinCurrencyID Int
+  exchangeID Int
+  timestamp  Int
+  timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
+  timeIntervalId Int
+  value      Decimal
+
+  @@index([coinCurrencyID])
+  @@index([exchangeID])
+  @@index([timeIntervalId])
 }
+
+model VolumeNotional {
+  id Int @id @default(autoincrement())
+  coinCurrency CoinCurrency  @relation(fields: [coinCurrencyID], references: [id])
+  exchange Exchange @relation(fields: [exchangeID], references: [id])
+  coinCurrencyID Int
+  exchangeID Int
+  timestamp  Int
+  timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
+  timeIntervalId Int
+  value      Decimal
+
+  @@index([coinCurrencyID])
+  @@index([exchangeID])
+  @@index([timeIntervalId])
+}
+
+model VolumePremium {
+  id Int @id @default(autoincrement())
+  coinCurrency CoinCurrency  @relation(fields: [coinCurrencyID], references: [id])
+  exchange Exchange @relation(fields: [exchangeID], references: [id])
+  coinCurrencyID Int
+  exchangeID Int
+  timestamp  Int
+  timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
+  timeIntervalId Int
+  value      Float
+
+  @@index([coinCurrencyID])
+  @@index([exchangeID])
+  @@index([timeIntervalId])
+}
+
 
 model ByBitData {
   id  Int  @id  @default(autoincrement())
@@ -96,19 +152,4 @@ model DeribitData {
   trade_id String
   markPrice Float
 }
-
-
-// model Contract {
-//     id Int @id @default(autoincrement())
-//     exchangeId Int
-//     coinId Int
-//     timestamp DateTime @default(now())
-//     premium_volume Float
-//     notional_volume Float
-//     traded_count Int
-//     open_interest Float
-//     exchange Exchange @relation(fields: [exchangeId], references: [id])
-//     coin Coin @relation(fields: [coinId], references: [id])
-
-// }
 

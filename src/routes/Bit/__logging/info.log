@@ -1362,3 +1362,24 @@
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061765871},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061765872},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061863507},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061863550},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061868512},"message":""},"type":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061873520},"message":""},"type":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061878533},"message":""},"type":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061883539},"message":""},"type":"pong"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061886080},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"channel":"subscription","data":{"code":0,"subscription":["market_trade"]},"timestamp":1674061886081},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061891089},"message":""},"type":"pong"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"result":{"code":0,"data":{"id":123,"timestamp":1674061896099},"message":""},"type":"pong"},"service":"user-service"}
