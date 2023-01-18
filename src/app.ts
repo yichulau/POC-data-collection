@@ -1,8 +1,7 @@
 import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import { indexRouter } from './routes';
-import { openInterestVolRouter } from './routes/OKEX/contracts/openInterestVol';
+import { indexRouter } from './routes'
 import { byBitNotional } from './routes/Bybit/notionalVolume';
 import { bitIndexNotional } from './routes/Bit/notionalVolume';
 import { bitNoOfContracts } from './routes/Bit/numberOfContracts';

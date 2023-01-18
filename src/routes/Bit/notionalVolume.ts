@@ -1,7 +1,9 @@
 import express, { NextFunction, Request, Response } from 'express';
 import axios from 'axios';
 import crypto from 'crypto';
+import { PrismaClient } from '@prisma/client';
 
+const prisma = new PrismaClient();
 const router = express.Router();
 let cache : any = {};
 
@@ -19,6 +21,54 @@ router.get('/api/v1/bit/index', async (req: Request, res: Response, next: NextFu
     const [btcContract , btcVolume, btcOpenInterestVolume] = getLast24HVolume(tickers, "BTC",BTCSpotValue);
     const [ethContract , ethVolume, ethOpenInterestVolume] = getLast24HVolume(tickers, "ETH", ETHSpotValue);
     const [solContract , solVolume, solOpenInterestVolume] = getLast24HVolume(tickers, "SOL", SOLSpotValue);
+
+    if(btcVolume && ethVolume){
+        // BTC
+        await prisma.volumeNotional.create({
+          data: {
+              coinCurrencyID: 1,
+              exchangeID: 3,
+              timestamp: new Date(),
+              timeIntervalId: 1,
+              value: btcVolume
+  
+          }
+      });
+      // ETH
+      await prisma.volumeNotional.create({
+          data: {
+              coinCurrencyID: 2,
+              exchangeID: 3,
+              timestamp: new Date(),
+              timeIntervalId: 1,
+              value: ethVolume
+  
+          }
+      });
+      // BTC
+      await prisma.openInterest.create({
+          data: {
+              coinCurrencyID: 1,
+              exchangeID: 3,
+              timestamp: new Date(),
+              timeIntervalId: 1,
+              value: btcOpenInterestVolume
+  
+          }
+      });
+      // ETH
+      await prisma.openInterest.create({
+          data: {
+              coinCurrencyID: 2,
+              exchangeID: 3,
+              timestamp: new Date(),
+              timeIntervalId: 1,
+              value: ethOpenInterestVolume
+  
+          }
+      });
+  } 
+
     res.send({
         btcContract: btcContract,
         btcVolume: btcVolume,

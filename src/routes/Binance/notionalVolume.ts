@@ -1,8 +1,10 @@
 import express, { NextFunction, Request, Response } from 'express';
 import axios from 'axios';
 import crypto from 'crypto';
+import { PrismaClient } from '@prisma/client';
 
 const router = express.Router();
+const prisma = new PrismaClient();
 let cache : any = {};
 
 router.get('/api/v1/binance/index', async (req: Request, res: Response, next: NextFunction) => {
@@ -23,6 +25,32 @@ router.get('/api/v1/binance/index', async (req: Request, res: Response, next: Ne
     const ethSpotValue = await getSpotValue("ETHUSDT");
     const [btcContract , btcVolume, numberOfContractTradedBTC] = getLast24HVolume(tickers, "BTC", btcSpotValue);
     const [ethContract , ethVolume, numberOfContractTradedETH] = getLast24HVolume(tickers, "ETH", ethSpotValue);
+
+    if(btcVolume && ethVolume){
+        await prisma.volumeNotional.create({
+            data: {
+                coinCurrencyID: 1,
+                exchangeID: 2,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: btcVolume
+    
+            }
+        });
+    } else {
+        await prisma.volumeNotional.create({
+            data: {
+                coinCurrencyID: 2,
+                exchangeID: 2,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: ethVolume
+    
+            }
+        });
+    }
+
+
     res.send({
         btcContract: btcContract,
         btcVolume: btcVolume,

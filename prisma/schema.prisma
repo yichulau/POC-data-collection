@@ -43,7 +43,7 @@ model ContractsTraded {
   exchange Exchange @relation(fields: [exchangeID], references: [id])
   coinCurrencyID Int
   exchangeID Int
-  timestamp  Int
+  timestamp  DateTime
   timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
   timeIntervalId Int
   value      Decimal
@@ -59,7 +59,7 @@ model OpenInterest {
   exchange Exchange @relation(fields: [exchangeID], references: [id])
   coinCurrencyID Int
   exchangeID Int
-  timestamp  Int
+  timestamp  DateTime
   timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
   timeIntervalId Int
   value      Decimal
@@ -75,7 +75,7 @@ model VolumeNotional {
   exchange Exchange @relation(fields: [exchangeID], references: [id])
   coinCurrencyID Int
   exchangeID Int
-  timestamp  Int
+  timestamp  DateTime
   timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
   timeIntervalId Int
   value      Decimal
@@ -91,7 +91,7 @@ model VolumePremium {
   exchange Exchange @relation(fields: [exchangeID], references: [id])
   coinCurrencyID Int
   exchangeID Int
-  timestamp  Int
+  timestamp  DateTime
   timeInterval TimeInterval  @relation(fields: [timeIntervalId], references: [id])
   timeIntervalId Int
   value      Float

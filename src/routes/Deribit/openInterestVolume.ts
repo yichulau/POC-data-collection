@@ -20,29 +20,30 @@ router.get('/api/v1/deribit/openinterestvol', async (req: Request, res: Response
 
     const totalOpenInterestVol = btcVolume + ethVolume;
     
-    // await prisma.contract.create({
-    //     data: {
-    //         premium_volume: 0,
-    //         notional_volume: 0,
-    //         traded_count: 0,
-    //         open_interest: totalOpenInterestVol,
-    //         coin: { connect: { id: 4 } },
-    //         exchange: { connect: { id: 1 } },
-    //     }
-    // });
+    if(btcVolume && ethVolume){
+        // BTC
+        await prisma.openInterest.create({
+            data: {
+                coinCurrencyID: 1,
+                exchangeID: 4,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: btcVolume
     
-
-
-
-
-
-
-
-    // await prisma.createContract({
-    //     open_interest: data.totalOpenInterestVol,
-    //     coin: {connect: {name: 'btc'}},
-    //     exchange: {connect: {name: 'deribit'}},
-    // });
+            }
+        });
+        // ETH
+        await prisma.openInterest.create({
+            data: {
+                coinCurrencyID: 2,
+                exchangeID: 4,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: ethVolume
+    
+            }
+        });
+    } 
     
     res.send({
         btcContract: btcContract,

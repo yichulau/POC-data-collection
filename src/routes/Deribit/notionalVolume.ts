@@ -1,7 +1,9 @@
 import express, { NextFunction, Request, Response } from 'express';
 import axios from 'axios';
 import crypto from 'crypto';
+import { PrismaClient } from '@prisma/client';
 
+const prisma = new PrismaClient();
 const router = express.Router();
 let cache : any = {};
 
@@ -20,6 +22,31 @@ router.get('/api/v1/deribit/index', async (req: Request, res: Response, next: Ne
     const [btcContract , btcVolume] = getLast24HVolume(tickers, "BTC", BTCSpotValue);
     const [ethContract , ethVolume] = getLast24HVolume(tickers, "ETH", ETHSpotValue);
     const [solContract , solVolume] = getLast24HVolume(tickers, "SOL", SOLSpotValue);
+
+    if(btcVolume && ethVolume){
+        // BTC
+        await prisma.volumeNotional.create({
+            data: {
+                coinCurrencyID: 1,
+                exchangeID: 4,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: btcVolume
+    
+            }
+        });
+        // ETH
+        await prisma.volumeNotional.create({
+            data: {
+                coinCurrencyID: 2,
+                exchangeID: 4,
+                timestamp: new Date(),
+                timeIntervalId: 1,
+                value: ethVolume
+    
+            }
+        });
+    } 
 
     res.send({
         btcContract: btcContract,
