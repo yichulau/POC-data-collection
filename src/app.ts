@@ -57,22 +57,22 @@ app.use(deribitOpenInterest)
 const wsByBit = new WebSocket("wss://stream.bytick.com/option/usdc/public/v3");
 wsPolling.realTimePolling(wsByBit);
 
-// Bit websocket
+// // Bit websocket
 const wsBit = new WebSocket("wss://ws.bit.com");
 wsBitPolling.realTimePolling(wsBit);
 
-// OKEX websocket
+// // OKEX websocket
 const wsOKEX = new WebSocket("wss://ws.okx.com:8443/ws/v5/public");
 wsOKEXPolling.realTimePolling(wsOKEX);
 
-// Deribit websocket
+// // Deribit websocket
 const wsDeribit = new WebSocket("wss://www.deribit.com/ws/api/v2");
 wsDeribitPolling.realTimePolling(wsDeribit);
 
-// Binance websocket
+// // Binance websocket
 // const wsBinance = new WebSocket("wss://ws-api.binance.com/ws-api/v3"); obsolete
-const wsBinance = new WebSocket("wss://nbstream.binance.com/eoptions/stream");
-wsBinancePolling.realTimePollingETH(wsBinance)
-wsBinancePolling.realTimePollingBTC(wsBinance)
+// const wsBinance = new WebSocket("wss://nbstream.binance.com/eoptions/stream");
+// wsBinancePolling.realTimePollingETH(wsBinance)
+// wsBinancePolling.realTimePollingBTC(wsBinance)
 
 export { app };

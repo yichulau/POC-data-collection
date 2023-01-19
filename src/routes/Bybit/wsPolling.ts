@@ -37,7 +37,7 @@ function realTimePolling(ws: any) {
     });
 
     ws.on("message", async (response: { toString: () => string; }) => {
-        console.log(JSON.parse(response.toString()));
+        console.log(JSON.parse(response.toString()) ,"ByBit");
         const dataSet = JSON.parse(response.toString());
         const {id, topic, ts, data } = dataSet;
         if(data){

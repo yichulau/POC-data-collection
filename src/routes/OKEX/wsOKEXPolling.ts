@@ -43,8 +43,9 @@ function realTimePolling(ws: any) {
     });
 
     ws.on("message", async (response: { toString: () => string; }) => {
-
+        
         const dataSet = JSON.parse(response.toString());
+        console.log(dataSet,"OKEx")
         const { data } = dataSet;
         if(data){
             data.map(async (obj: any)=>{

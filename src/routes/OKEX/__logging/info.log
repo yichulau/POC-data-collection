@@ -3300,3 +3300,214 @@
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
 {"level":"info","message":"Checking Heartbeat","service":"user-service"}
 {"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5676358178710936","fwdPx":"20977.89577601477","indexPx":"20807.7","instFamily":"BTC-USD","instId":"BTC-USD-230331-22000-C","markPx":"0.08089574611524113","optType":"C","px":"0.0795","side":"sell","sz":"1","tradeId":"146","ts":"1674109306016"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5676358178710936","fwdPx":"20977.89577601477","indexPx":"20807.7","instFamily":"BTC-USD","instId":"BTC-USD-230331-22000-C","markPx":"0.08089574611524113","optType":"C","px":"0.0795","side":"sell","sz":"1","tradeId":"146","ts":"1674109306016"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5676358178710936","fwdPx":"20977.89577601477","indexPx":"20807.7","instFamily":"BTC-USD","instId":"BTC-USD-230331-22000-C","markPx":"0.08089574611524113","optType":"C","px":"0.0795","side":"sell","sz":"1","tradeId":"146","ts":"1674109306016"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5676358178710936","fwdPx":"20977.89577601477","indexPx":"20807.7","instFamily":"BTC-USD","instId":"BTC-USD-230331-22000-C","markPx":"0.08089574611524113","optType":"C","px":"0.0795","side":"sell","sz":"1","tradeId":"146","ts":"1674109306016"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.49805587890624997","fwdPx":"20820.900649069652","indexPx":"20812.1","instFamily":"BTC-USD","instId":"BTC-USD-230120-21000-C","markPx":"0.00610118666969206","optType":"C","px":"0.007","side":"buy","sz":"1","tradeId":"71","ts":"1674109585104"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.49805587890624997","fwdPx":"20820.900649069652","indexPx":"20812.1","instFamily":"BTC-USD","instId":"BTC-USD-230120-21000-C","markPx":"0.00610118666969206","optType":"C","px":"0.007","side":"buy","sz":"1","tradeId":"71","ts":"1674109585104"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.639657158203125","fwdPx":"1526.7929884592008","indexPx":"1525.93","instFamily":"ETH-USD","instId":"ETH-USD-230127-1600-C","markPx":"0.018513591660837436","optType":"C","px":"0.0195","side":"buy","sz":"10","tradeId":"286","ts":"1674109361152"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5786221240234374","fwdPx":"20858.640992574103","indexPx":"20821.4","instFamily":"BTC-USD","instId":"BTC-USD-230203-21000-P","markPx":"0.0507127636275678","optType":"P","px":"0.0505","side":"sell","sz":"249","tradeId":"40","ts":"1674109646378"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.507821484375","fwdPx":"1528.7204283607991","indexPx":"1528.88","instFamily":"ETH-USD","instId":"ETH-USD-230120-1550-C","markPx":"0.006854090437332241","optType":"C","px":"0.0055","side":"sell","sz":"11","tradeId":"83","ts":"1674109699063"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5786221240234374","fwdPx":"20858.640992574103","indexPx":"20821.4","instFamily":"BTC-USD","instId":"BTC-USD-230203-21000-P","markPx":"0.0507127636275678","optType":"P","px":"0.0505","side":"sell","sz":"249","tradeId":"40","ts":"1674109646378"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.507821484375","fwdPx":"1528.7204283607991","indexPx":"1528.88","instFamily":"ETH-USD","instId":"ETH-USD-230120-1550-C","markPx":"0.006854090437332241","optType":"C","px":"0.0055","side":"sell","sz":"11","tradeId":"83","ts":"1674109699063"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.6298915527343749","fwdPx":"1529.473349551716","indexPx":"1529.13","instFamily":"ETH-USD","instId":"ETH-USD-230127-1500-C","markPx":"0.045905303455997415","optType":"C","px":"0.0475","side":"buy","sz":"1","tradeId":"241","ts":"1674109801183"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.6836023828125001","fwdPx":"1529.513349551716","indexPx":"1529.14","instFamily":"ETH-USD","instId":"ETH-USD-230127-1800-C","markPx":"0.003153629354922416","optType":"C","px":"0.0025","side":"sell","sz":"1","tradeId":"339","ts":"1674109803389"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5786221240234374","fwdPx":"20858.640992574103","indexPx":"20821.4","instFamily":"BTC-USD","instId":"BTC-USD-230203-21000-P","markPx":"0.0507127636275678","optType":"P","px":"0.0505","side":"sell","sz":"249","tradeId":"40","ts":"1674109646378"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.65430556640625","fwdPx":"1529.2129521955221","indexPx":"1529.12","instFamily":"ETH-USD","instId":"ETH-USD-230203-1500-C","markPx":"0.06405441959784819","optType":"C","px":"0.0625","side":"sell","sz":"1","tradeId":"3","ts":"1674109833282"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.7617272265625","fwdPx":"1529.1129521955222","indexPx":"1529.14","instFamily":"ETH-USD","instId":"ETH-USD-230203-1800-C","markPx":"0.011251577351187952","optType":"C","px":"0.0125","side":"buy","sz":"1","tradeId":"38","ts":"1674109849317"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Connected!","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"event":"subscribe"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5786221240234374","fwdPx":"20858.640992574103","indexPx":"20821.4","instFamily":"BTC-USD","instId":"BTC-USD-230203-21000-P","markPx":"0.0507127636275678","optType":"P","px":"0.0505","side":"sell","sz":"249","tradeId":"40","ts":"1674109646378"}]},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.7617272265625","fwdPx":"1529.1129521955222","indexPx":"1529.14","instFamily":"ETH-USD","instId":"ETH-USD-230203-1800-C","markPx":"0.011251577351187952","optType":"C","px":"0.0125","side":"buy","sz":"1","tradeId":"38","ts":"1674109849317"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.5883877294921874","fwdPx":"20885.40280541516","indexPx":"20838.1","instFamily":"BTC-USD","instId":"BTC-USD-230203-20000-P","markPx":"0.02861292770142209","optType":"P","px":"0.0285","side":"sell","sz":"404","tradeId":"41","ts":"1674109915565"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"ETH-USD","instType":"OPTION"},"data":[{"fillVol":"0.7074060461425782","fwdPx":"1547.2397652793213","indexPx":"1529.42","instFamily":"ETH-USD","instId":"ETH-USD-230929-3000-C","markPx":"0.05413380706357703","optType":"C","px":"0.052","side":"sell","sz":"8","tradeId":"108","ts":"1674109938067"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"arg":{"channel":"option-trades","instFamily":"BTC-USD","instType":"OPTION"},"data":[{"fillVol":"0.6213466479492188","fwdPx":"21273.397331020293","indexPx":"20841.9","instFamily":"BTC-USD","instId":"BTC-USD-230929-40000-C","markPx":"0.03943981963355068","optType":"C","px":"0.037","side":"sell","sz":"5","tradeId":"143","ts":"1674109970055"}]},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
+{"level":"info","message":"Checking Heartbeat","service":"user-service"}
+{"additional":"properties","are":"passed along","level":"info","message":{"code":"60012","event":"error","msg":"Illegal request: \"op\": \"login\"}]"},"service":"user-service"}
